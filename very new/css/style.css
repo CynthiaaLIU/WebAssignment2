@@ -242,7 +242,7 @@ a.top-icon {
   color: #555;
  }
  .accommodation-grid img {
-  border-radius: 15em;
+  border-radius: 0px;
   
  }
 .accommodation-grid {
@@ -252,10 +252,10 @@ a.top-icon {
 }
 .accommodation-info {
   position: absolute;
-  width: 66%;
+  width: 100%;
   left: 15px;
   top: -1px;
-  border-radius: 10em;
+  border-radius: 0em;
   padding: 6.5em 0em;
   display:none;
 }
@@ -268,7 +268,7 @@ a.top-icon {
 .accommodation-grid:hover div.accommodation-info{
   display: block;
   background: rgba(100, 116, 25, 0.55);
-  border-radius: 10em;
+  border-radius: 0px;
   padding: 6em 0em;
 }
 .accommodation-info h4 {
