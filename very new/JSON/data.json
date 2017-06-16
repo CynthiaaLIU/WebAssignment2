@@ -1,0 +1,16 @@
+[
+
+{
+"productid":1,
+"name":"The Sun",
+"category":"abstract",
+"description":"Nothing to say",
+"popularity":true,
+"onsale":true,
+"price":15
+},
+{
+"name":"The Flower",
+"price":20
+}
+]
