@@ -10,7 +10,12 @@
 "price":15
 },
 {
-"name":"The Flower",
-"price":20
+  "productid":2,
+  "name":"The Flower",
+  "category":"abstract2",
+  "description":"Nothing to say2",
+  "popularity":true,
+  "onsale":false,
+  "price":20
 }
 ]
