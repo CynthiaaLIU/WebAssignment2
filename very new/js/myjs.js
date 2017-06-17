@@ -15,12 +15,12 @@ function qushuju(num,a,b){
 
 
 $(document).ready(function() {
-qushuju(0,'productid','.abc');
+
   console.log("document loaded")
 
   $('#btn1').click(function() {
     console.log("AA")
-
+    qushuju(1,'productid','.abc');
   });
 
 });
