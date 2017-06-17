@@ -155,9 +155,11 @@ a.top-icon {
 	}
 .about-section h3{
    font-size: 46px;
+   font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	}
 .about-section p{
    font-size: 26px;
+   font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
 	}
 .about-header h3 {
 	font-size: 3em;
