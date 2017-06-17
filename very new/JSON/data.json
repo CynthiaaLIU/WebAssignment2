@@ -7,7 +7,7 @@
 "description":"Nothing to say",
 "popularity":true,
 "onsale":true,
-"price":15
+"price":"$15.00"
 },
 {
   "productid":2,
@@ -16,6 +16,6 @@
   "description":"Nothing to say2",
   "popularity":true,
   "onsale":false,
-  "price":20
+  "price":"$20.00"
 }
 ]
