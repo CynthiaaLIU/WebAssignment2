@@ -8,7 +8,7 @@ function qushuju(num,a,b){
             var ourData= JSON.parse(ourRequest.responseText)
 
               console.log(ourData[num][a])
-              $('.'+b).text(ourData[num][a])
+              $(b).text(ourData[num][a])
             }
             ourRequest.send();
                         }
@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   $('#btn1').click(function() {
     console.log("AA")
-    qushuju(1,'productid','abc');
+    qushuju(1,'productid','.abc');
   });
 
 });
