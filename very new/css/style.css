@@ -1,7 +1,9 @@
 
 .lo img{
-	width:400px;
-	height:200px;
+	width:330px;
+	height:170px;
+	position: absolute; 
+	margin-top: 20px;
 	}
 
 h1,h2,h3,h4,h5,h6{
@@ -24,7 +26,7 @@ body{
 .header{
   background: url(../images/topbg.jpg) no-repeat 0px 0px;
   background-size: cover;
-  min-height: 809px;
+  height: 709px;
 }
 .header-top {
   margin-top:10em;
@@ -47,6 +49,7 @@ body{
 .logo {
   margin: 0 auto;
   width: 28%;
+	position: relative;
 }
 .logo a {
   display: block;
@@ -242,8 +245,7 @@ a.top-icon {
   color: #555;
  }
  .accommodation-grid img {
-  border-radius: 15em;
-  
+  border-radius: 40px;
  }
 .accommodation-grid {
   position: relative;
@@ -252,10 +254,11 @@ a.top-icon {
 }
 .accommodation-info {
   position: absolute;
-  width: 66%;
+  width: 345px;
+  height: 290px;
   left: 15px;
   top: -1px;
-  border-radius: 10em;
+  border-radius: 40px;
   padding: 6.5em 0em;
   display:none;
 }
@@ -268,7 +271,7 @@ a.top-icon {
 .accommodation-grid:hover div.accommodation-info{
   display: block;
   background: rgba(100, 116, 25, 0.55);
-  border-radius: 10em;
+  border-radius: 0px;
   padding: 6em 0em;
 }
 .accommodation-info h4 {
