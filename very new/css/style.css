@@ -1384,20 +1384,20 @@ position: absolute;
 }
 
 .carttitle{
-	margin-top: 110px;
+  color:black;
 	text-align: center;
 	font-size:3em;
 	font-family: 'Lobster', cursive;
   text-transform: capitalize;
   text-decoration: none;
-  color: #fff;
 }
-.mytable th{
+.mytable {
 	color:black;
 	font-size: 20px;
 	text-align: center;
 }
-.mytable tr{
-	color:black;
-	font-size: 10px;
+
+.total{
+	text-align: right;
+	margin-right: 100px;
 }
