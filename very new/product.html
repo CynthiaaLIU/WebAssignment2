@@ -87,61 +87,57 @@ $(document).ready(function() {
 
 <div>
   <ul class="nav nav-pills badge">
-  <li role="presentation"><a href="#" id="type1">ABSTRACT</a></li>
-  <li role="presentation"><a href="#" id="type2">INK PAINTING</a></li>
-  <li role="presentation"><a href="#" id="type3">LANDSCAPE</a></li>
-  <li role="presentation"><a href="#" id="type4">POP ART</a></li>
-  <li role="presentation"><a href="#" id="type5">PORTRAIT</a></li>
+  <li role="presentation"><a href="#" id="type1" onclick="typeFillter(1)">ABSTRACT</a></li>
+  <li role="presentation"><a href="#" id="type2" onclick="typeFillter(2)">INK PAINTING</a></li>
+  <li role="presentation"><a href="#" id="type3" onclick="typeFillter(3)">LANDSCAPE</a></li>
+  <li role="presentation"><a href="#" id="type4" onclick="typeFillter(4)">POP ART</a></li>
+  <li role="presentation"><a href="#" id="type5" onclick="typeFillter(5)">PORTRAIT</a></li>
 </ul>
 </div>
 <!-- class="active" -->
 <div class="accommodation-grids">
 
       <div class="col-md-4 accommodation-grid">
-      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <img src="images/abstract/1.jpg"  id = "productImg1" class="img-responsive-p" alt="/">
       <div class="accommodation-info">
-      <a><p>Name<br>Discription<br>Price</p>
+        <a><p> <span id="name1"></span><br> <span id="des1"></span><br> <span id="pri1"></span><br><button type="button"  name="button" class="label-success buyme1" onclick= "hello()">Buy It</button></p>
       </a>
+
       </div>
       </div>
 
       <div class="col-md-4 accommodation-grid">
-      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <img src="images/abstract/1.jpg" id = "productImg2" class="img-responsive-p" alt="/">
       <div class="accommodation-info">
-      <a><p>Name<br>Discription<br>Price</p>
-      </a>
+        <a><p> <span id="name2"></span><br> <span id="des2"></span><br> <span id="pri2"></span><br><button type="button" name="button" class="label-success buyme2"onclick= "hello()">Buy It</button></p>
       </div>
       </div>
 
       <div class="col-md-4 accommodation-grid">
-      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <img src="images/abstract/1.jpg"  id = "productImg3" class="img-responsive-p" alt="/">
       <div class="accommodation-info">
-      <a><p>Name<br>Discription<br>Price</p>
-      </a>
+        <a><p> <span id="name3"></span><br> <span id="des3"></span><br> <span id="pri3"></span><br><button type="button"  name="button" class="label-success buyme3"onclick= "hello()">Buy It</button></p>
       </div>
       </div>
 
       <div class="col-md-4 accommodation-grid">
-      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <img src="images/abstract/1.jpg"  id = "productImg4" class="img-responsive-p" alt="/">
       <div class="accommodation-info">
-      <a><p>Name<br>Discription<br>Price</p>
-      </a>
+          <a><p> <span id="name4"></span><br> <span id="des4"></span><br> <span id="pri4"></span><br><button type="button" name="button" class="label-success buyme4"onclick= "hello()">Buy It</button></p>
       </div>
       </div>
 
       <div class="col-md-4 accommodation-grid">
-      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <img src="images/abstract/1.jpg" id = "productImg5"  class="img-responsive-p" alt="/">
       <div class="accommodation-info">
-      <a><p>Name<br>Discription<br>Price</p>
-      </a>
+          <a><p> <span id="name5"></span><br> <span id="des5"></span><br> <span id="pri5"></span><br><button type="button" name="button" class="label-success buyme5"onclick= "hello()">Buy It</button></p>
 </div>
 </div>
 
 <div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+<img src="images/abstract/1.jpg"  id = "productImg6" class="img-responsive-p" alt="/">
 <div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
+      <a><p> <span id="name6"></span><br> <span id="des6"></span><br> <span id="pri6"></span><br><button type="button"  name="button" class="label-success buyme6"onclick= "hello()">Buy It</button></p>
 </div>
 </div>
 

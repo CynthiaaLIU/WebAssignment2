@@ -7,17 +7,30 @@ function qushuju(num,a,b){
             ourRequest.onload= function(){
             var ourData= JSON.parse(ourRequest.responseText)
 
-              // console.log(ourData[num][a])
+              //  console.log(ourData[num][a])
               $(b).text(ourData[num][a])
             }
             ourRequest.send();
                         }
 function typeFillter(a){
-  var i = "#"+a;
-  console.log(i);
-  $(i).click(function(){
-    alert(i);
-  });
+
+  var j = (a-1)*6;
+
+  for (var i = 0; i <6; i++) {
+    // console.log("this is loop" + i);
+
+
+    qushuju(j,'name',"#name"+(i+1));
+    qushuju(j,'description',"#des"+ (i+1));
+    qushuju(j,'price',"#pri"+ (i+1));
+    $('#productImg'+(i+1)).attr('src','images/art/'+(j+i+1)+'.jpg');
+    $('.buyme'+(i+1)).attr('id', '#buyme'+(j+i+1));
+
+  }
+}
+
+function hello(){
+  alert($('.buyme1').attr('id'));
 }
 
 $(document).ready(function() {
@@ -43,13 +56,15 @@ $(document).ready(function() {
     qushuju(28,'price','#pop5');
 
 //product Page
-    typeFillter($('#type1').attr('id'));
-    console.log($('#type1').attr('id')+ "aaa");
+
+    typeFillter(1);
+
 
 // test page
   $('#btn1').click(function() {
     console.log("AA")
-    qushuju(1,'productid','.abc');
+    qushuju(1,'name','#name1');
+
   });
 
 });
