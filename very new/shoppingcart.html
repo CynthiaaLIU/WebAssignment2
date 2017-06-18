@@ -4,6 +4,8 @@
 <title>index</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/myjs.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Campaign Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
@@ -75,24 +77,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="carttitle" style="border:1px solid black">
         <p >Shopping Cart</p>
         </div>
-        <div class = "mytable" id="line1">
-            <div id="tableTitle" style="border:1px solid black">
-              <div id="tableTitle1" class="col-md-3">piture</div>
-              <div id="tableTitle1" class="col-md-3">Name</div>
-              <div id="tableTitle2" class="col-md-3">Quantity</div>
-              <div id="tableTitle3" class="col-md-3">Price</div>
-            </div>
-            <div id="tableLine0" style="border:1px solid yellow">
-              <div id="l0d1" class="col-md-3">piture</div>
-              <div id="tableTitle1" class="col-md-3">Name</div>
-              <div id="tableTitle2" class="col-md-3">Quantity</div>
-              <div id="tableTitle3" class="col-md-3">Price</div>
-            </div>
-        </div>
-        <div class="total">
-          <p></p>
-          <p>Total Price:<label id="total"></label></p>
+        <div id="imgtest"></div>
+        <br />
+        <br />
+        <table id="myTable" border="1" style="text-align: center;" align="center">
+         <thead style="height: 50">
+          <td style="WIDTH: 300px">
+           Name
+          </td>
+          <td style="WIDTH: 60px">
+           preview
+          </td>
+          <td style="WIDTH: 170px">
+           Quantity
+          </td>
+          <td style="WIDTH: 170px">
+           Price
+          </td>
+          <td style="WIDTH: 250px">
+           Total
+          </td>
+         </thead>
+         <tbody>
+          <tr id = "line1">
+           <td class="name">aaa<button type="button" id = "hide" name="button">hide</button></td>
 
+           <td class="image">
+            <!-- <img src="1.jpg" width="40px" height="40px" id="image1"/> -->
+           </td>
+           <td class="quantity">
+            <input id="quantity1" value="1" onblur="total(1);"/>
+           </td>
+           <td class="price">
+            <input type="hidden" id="price1" value="20"/>
+            20
+           </td>
+           <td class="total">
+            <span id="smallTotal1"></span> ?
+           </td>
+          </tr>
+
+         </tbody>
+        </table>
         </div>
 							<!-- script for menu -->
 
@@ -100,7 +126,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"></div>
 			 </div>
 
-
+        <div style= "text-align:right ;padding-right:250px">
+          <p >Total price is $ <span id="totalPrice">0</span>.00 .</p>
+        </div>
 
 
 
