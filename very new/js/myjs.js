@@ -33,9 +33,9 @@ function typeFillter(a){
 }
 
 function hello(){
-  alert($('.buyme1').attr('id'));
+
   var name = qushuju($('.buyme1').attr('id'),'name')
-  alert(name);
+
   $('#myTable tr:last').after('<tr id = "line1"> <td >'+name+'<button type="button" id = "hide" name="button">hide</button></td>   <td class="image">    <!-- <img src="1.jpg" width="40px" height="40px" id="image1"/> -->   </td>   <td class="quantity">    <input id="quantity1" value="1" onblur="total(1);"/>   </td>   <td class="price">    <input type="hidden" id="price1" value="20"/>    20   </td>   <td class="total">    <span id="smallTotal1"></span> ?   </td>  </tr>');
 }
 
