@@ -1,103 +1,206 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>signup</title>
-<link rel="Shortcut Icon" href="images/icon.ico">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Campaign Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<script src="js/jquery-1.11.1.min.js"></script>
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/SignupScript.js"></script>
- <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-<!---End-smoth-scrolling---->
-<link rel="stylesheet" href="css/swipebox.css">
-			<script src="js/jquery.swipebox.min.js"></script>
-			    <script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-				</script>
+    <title>signup</title>
+    <link rel="Shortcut Icon" href="images/icon.ico">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Campaign Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+          rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/SignupScript.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+    <!---End-smoth-scrolling---->
+    <link rel="stylesheet" href="css/swipebox.css">
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $(".swipebox").swipebox();
+        });
+    </script>
 
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-		<div class="lo">
-        <img src="images/logo.png" alt="/">
+<div class="header">
+    <div class="container">
+        <div class="lo">
+            <img src="images/logo.png" alt="/">
         </div>
-		<div class="header-top">
-			<div class="logo">
-				<a href="index.html">Painting Art</a>
-			</div>
-				<div class="top-menu">
-				  <span class="menu"><img src="images/nav.png" alt=""/></span>
-				  <ul>
-				   <li><a href="index.html">Home</a></li>
-				   <li><a href="product.html">Product</a></li>
-				   <li><a href="about.html">About</a></li>
-				   <li><a href="signup.html">Signup</a></li>
-                   <li><a href="shoppingchrt.html">Shopping Chrt</a></li>
-				  </ul>
-				</div>
-							<!-- script for menu -->
-							<script>
-							 $("span.menu").click(function(){
-							 $(".top-menu ul").slideToggle("slow" , function(){
-							 });
-							 });
-							 </script>
-							<!-- //script for menu -->
-					<div class="clearfix"></div>
-			 </div>
-		</div>
-	</div>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">Painting Art</a>
+            </div>
+            <div class="top-menu">
+                <span class="menu"><img src="images/nav.png" alt=""/></span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="shoppingchrt.html">Shopping Chrt</a></li>
+                </ul>
+            </div>
+            <!-- script for menu -->
+            <script>
+                $("span.menu").click(function () {
+                    $(".top-menu ul").slideToggle("slow", function () {
+                    });
+                });
+            </script>
+            <!-- //script for menu -->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
 
 <div id="content">
 
+    <div class="containerSignUp">
+        <div class="signUpFormDiv">
+            <form id="signUpForm" class="signUpForm">
+                <table class="signUpTable">
+                    <tr>
+                        <td>
+                            <span>Name:</span>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name" placeholder="Name"/>
+                        </td>
+                        <td id="nameVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Surname:</span>
+                        </td>
+                        <td>
+                            <input type="text" name="surName" id="surname" placeholder="Surname"/>
+                        </td>
+                        <td id="surnameVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Email:</span>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email" placeholder="Email"/>
+                        </td>
+                        <td id="emailVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Date of birth:</span>
+                        </td>
+                        <td>
+                            <input type="date" name="DOB" id="date"/>
+                        </td>
+                        <td id="DOBVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Gender:</span>
+                        </td>
+                        <td>
+                            <input type="radio" value="f" name="gender" id="signUpF" checked/>
+                            <label for="signUpF">female</label> |
+                            <input type="radio" value="m" name="gender" id="signUpM"/> <label for="signUpM">male</label>
+                        </td>
+                        <td id="genderVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <input type="checkbox" value="1" name="agreement" id="check" checked
+                                   onchange="signUpTermsVerify(this);"><span>Agree our <a href="#">terms</a>.</span>
+                        </td>
+                        <td id="termsVerify">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
 
 
+            </form>
+            <script>
+                $("#signUpForm").submit(function(e){
+                    e.preventDefault();
+                    checkform();
+                });
+            </script>
+        </div>
+    </div>
+
+
+</div>
 <div class="footer-section">
-						<div class="container">
-							<div class="footer-top">
-								</div>
-								<div class="footer-bottom">
-						<p>Copyright &copy; 2017 NZ PAINTING CREATIONS STUDIO</p>
-									</div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear'
-					 		};
-							*/
+    <div class="container">
+        <div class="footer-top">
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2017 NZ PAINTING CREATIONS STUDIO</p>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                 var defaults = {
+                 containerID: 'toTop', // fading element id
+                 containerHoverID: 'toTopHover', // fading element hover id
+                 scrollSpeed: 1200,
+                 easingType: 'linear'
+                 };
+                 */
 
-							$().UItoTop({ easingType: 'easeOutQuart' });
+                $().UItoTop({easingType: 'easeOutQuart'});
 
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>
-	</div>
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+</div>
 
-	</body>
+</body>
 </html>

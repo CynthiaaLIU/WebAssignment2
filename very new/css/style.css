@@ -1411,3 +1411,35 @@ position: absolute;
 	text-align: right;
 	margin-right: 100px;
 }
+
+
+/**
+ CC edited, please do not changed anything below,this won't affect any elements that are not in sign up page
+ */
+
+.containerSignUp{
+    margin: 150px auto;
+    width: 80%;
+}
+.signUpFormDiv{
+    width: 80%;
+    margin: auto;
+}
+.signUpTable{
+    width: 100%;
+}
+.signUpTable td:nth-child(1){
+    width: 20%;
+}
+.signUpTable td:nth-child(2){
+    width: 60%;
+}
+.signUpTable td:nth-child(3){
+    width: 20%;
+}
+.signUpTable td{
+   padding: 10px 0px;
+}
+.signUpTable input[type="text"],.signUpTable input[type = "date"]{
+    width: 100%;
+}
