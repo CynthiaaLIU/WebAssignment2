@@ -19,8 +19,21 @@ $(document).ready(function() {
 
 
   console.log("document loaded")
-  qushuju(2,'productid','#promo1');
-
+    qushuju(1,'name','#promo1');
+    qushuju(6,'name','#promo2');
+    qushuju(15,'name','#promo3');
+    qushuju(16,'name','#promo4');
+    qushuju(29,'name','#promo5');
+    qushuju(4,'name','#popul1');
+    qushuju(4,'price','#pop1');
+    qushuju(8,'name','#popul2');
+    qushuju(8,'price','#pop2');
+    qushuju(14,'name','#popul3');
+    qushuju(14,'price','#pop3');
+    qushuju(21,'name','#popul4');
+    qushuju(21,'price','#pop4');
+    qushuju(28,'name','#popul5');
+    qushuju(28,'price','#pop5');
   $('#btn1').click(function() {
     console.log("AA")
     qushuju(1,'productid','.abc');

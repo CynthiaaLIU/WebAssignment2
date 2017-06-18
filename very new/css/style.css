@@ -1382,7 +1382,15 @@ p.banner-center {
 position: absolute;
 
 }
-
+.titlePage{
+  color:black;
+	text-align: center;
+	font-size:3em;
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+	padding-bottom: 10px;
+}
 .carttitle{
   color:black;
 	text-align: center;
