@@ -33,6 +33,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						$(".swipebox").swipebox();
 					});
 				</script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+      });
+    </script>
+    <script>
+     $("span.menu").click(function(){
+     $(".top-menu ul").slideToggle("slow" , function(){
+     });
+     });
+     </script>
 
 </head>
 <body>
@@ -55,73 +68,59 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li><a href="shoppingcart.html">Shopping Cart</a></li>
 				  </ul>
 				</div>
+      </div>
+    </div>
+  </div>
+    <div>
+        <div class="carttitle" style="border:1px solid black">
+        <p>Shopping Cart</p>
+        <table class="table table-striped mytable">
+          <caption>条纹表格布局</caption>
+          <div>
+
+          </div>
+          <thead>
+            <tr>
+              <th>名称</th>
+              <th>城市</th>
+              <th>邮编</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tanmay</td>
+              <td>Bangalore</td>
+              <td>560001</td>
+            </tr>
+            <tr>
+              <td>Sachin</td>
+              <td>Mumbai</td>
+              <td>400003</td>
+            </tr>
+            <tr>
+              <td>Uma</td>
+              <td>Pune</td>
+              <td>411027</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
 							<!-- script for menu -->
-							<script>
-							 $("span.menu").click(function(){
-							 $(".top-menu ul").slideToggle("slow" , function(){
-							 });
-							 });
-							 </script>
+
 							<!-- //script for menu -->
 					<div class="clearfix"></div>
 			 </div>
 
-		</div>
-	</div>
 
 
 
 
-
-
-
-						<!----sreen-gallery-cursual---->
-						<div class="sreen-gallery-cursual">
-							 <!-- requried-jsfiles-for owl -->
-							<link href="css/owl.carousel.css" rel="stylesheet">
-					      <script src="js/owl.carousel.js"></script>
-				          <script>
-							    $(document).ready(function() {
-							      $("#owl-demo").owlCarousel({
-							        items : 1,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : false,
-							        navigationText :  false,
-							        pagination : true,
-							      });
-							    });
-							    </script>
-							 <!-- //requried-jsfiles-for owl -->
-					</div>
-
-
-
-
-
-
-<div class="footer-section">
+<div class="footer-section" style="border: 1px red dotted">
 						<div class="container">
-							<div class="footer-top">
-								</div>
-								<div class="footer-bottom">
+							<div class="footer-bottom">
 						<p>Copyright &copy; 2017 NZ PAINTING CREATIONS STUDIO</p>
 									</div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear'
-					 		};
-							*/
 
-							$().UItoTop({ easingType: 'easeOutQuart' });
-
-						});
-					</script>
 				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 	</div>

@@ -2,7 +2,7 @@
 .lo img{
 	width:330px;
 	height:170px;
-	position: absolute; 
+	position: absolute;
 	margin-top:30px;
 	}
 #container {
@@ -21,11 +21,11 @@ p{
 }
 ul{
 	padding:0 0;
-	margin:0 0;	
+	margin:0 0;
 }
 body{
 	padding:0 0;
-	margin:0 0; 
+	margin:0 0;
 	font-family: 'Open Sans', sans-serif;
 }
 .header{
@@ -183,7 +183,7 @@ a.top-icon {
 	color:#2A2A2A;
 	text-transform: capitalize;
 	 font-weight: 400;
-	
+
 }
 .about-grid p {
 	font-size: 1em;
@@ -258,7 +258,7 @@ a.top-icon {
 .accommodation-grid {
   position: relative;
   text-align: center;
-  margin-top:1em; 
+  margin-top:1em;
 }
 .accommodation-info {
   position: absolute;
@@ -270,7 +270,7 @@ a.top-icon {
   padding: 6.5em 0em;
   display:none;
 }
-.accommodation-info h3{	
+.accommodation-info h3{
 	font-size: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -296,7 +296,7 @@ a.top-icon {
  }
 .accommodation-info img {
   border: none;
-  margin-top:0.2em;  
+  margin-top:0.2em;
 }
 .accommodation-grids {
   margin-top: 5em;
@@ -353,7 +353,7 @@ a.top-icon {
 .gallery-grid1 a:hover .zoom-icon {
 	top: 14%;
 	opacity: 1;
-	filter: alpha(opacity=99); 
+	filter: alpha(opacity=99);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
 }
 .gallery-grid1{
@@ -371,7 +371,7 @@ position:relative;
   text-transform: capitalize;
   color: #fff;
   font-weight: 300;
- 
+
   margin-bottom: 0.5em;
 }
 .testimonial-header p {
@@ -453,7 +453,7 @@ font-size: 1.5em;
   text-align: center;
    margin-bottom: 0.5em;
    font-weight: 300;
-  
+
  }
 .signup-header p {
 	font-size: 1.2em;
@@ -588,7 +588,7 @@ font-size: 1.5em;
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	
+
 	bottom: 10px;
 	right: 10px;
 	overflow: hidden;
@@ -689,7 +689,7 @@ p.banner-center {
  }
 .signup-header p {
   font-size: 1.1em;
-}  
+}
 .signupdetails-grid h4 {
   font-size: 1.4em;
 }
@@ -787,7 +787,7 @@ p.banner-center {
   font-size: 0.92em;
   line-height: 1.5em;
   padding: 1.2em 0;
-  
+
 }
 .about-header h3 {
   font-size: 2em;
@@ -1227,7 +1227,7 @@ p.banner-center {
 .signupdetails-grid1 {
   float: none;
   width: 100%;
-  
+
   margin-top: 4em;
 }
 .signupdetails-grid1 h4 {
@@ -1263,7 +1263,7 @@ p.banner-center {
   margin-top: 6em;
 }
 .header-top:before {
- 
+
   zoom:0.5 !important;
 }
 .header-top:after {
@@ -1366,11 +1366,11 @@ p.banner-center {
   font-size: 1.3em;
 }
 .signupdetails-grid {
-  
+
   padding: 0;
 }
 .signupdetails-grid1 {
- 
+
   padding: 0;
 }
 .footer-section {
@@ -1381,4 +1381,23 @@ p.banner-center {
 .form{
 position: absolute;
 
+}
+
+.carttitle{
+	margin-top: 110px;
+	text-align: center;
+	font-size:3em;
+	font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+}
+.mytable th{
+	color:black;
+	font-size: 20px;
+	text-align: center;
+}
+.mytable tr{
+	color:black;
+	font-size: 10px;
 }
