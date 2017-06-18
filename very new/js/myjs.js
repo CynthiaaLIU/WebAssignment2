@@ -7,18 +7,25 @@ function qushuju(num,a,b){
             ourRequest.onload= function(){
             var ourData= JSON.parse(ourRequest.responseText)
 
-              console.log(ourData[num][a])
+              // console.log(ourData[num][a])
               $(b).text(ourData[num][a])
             }
             ourRequest.send();
                         }
-
+function typeFillter(a){
+  var i = "#"+a;
+  console.log(i);
+  $(i).click(function(){
+    alert(i);
+  });
+}
 
 $(document).ready(function() {
-//index page
+
 
 
   console.log("document loaded")
+    //index page
     qushuju(1,'name','#promo1');
     qushuju(6,'name','#promo2');
     qushuju(15,'name','#promo3');
@@ -34,6 +41,12 @@ $(document).ready(function() {
     qushuju(21,'price','#pop4');
     qushuju(28,'name','#popul5');
     qushuju(28,'price','#pop5');
+
+//product Page
+    typeFillter($('#type1').attr('id'));
+    console.log($('#type1').attr('id')+ "aaa");
+
+// test page
   $('#btn1').click(function() {
     console.log("AA")
     qushuju(1,'productid','.abc');

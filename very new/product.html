@@ -29,6 +29,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 <!---End-smoth-scrolling---->
+<!-- script for menu -->
+<script>
+ $("span.menu").click(function(){
+ $(".top-menu ul").slideToggle("slow" , function(){
+ });
+ });
+ </script>
+ <!-- //script for menu -->
+ <script type="text/javascript">
+$(document).ready(function() {
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+
+});
+</script>
 <link rel="stylesheet" href="css/swipebox.css">
 			<script src="js/jquery.swipebox.min.js"></script>
 			    <script type="text/javascript">
@@ -58,32 +73,67 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li><a href="shoppingcart.html">Shopping Cart</a></li>
 				  </ul>
 				</div>
-							<!-- script for menu -->
-							<script>
-							 $("span.menu").click(function(){
-							 $(".top-menu ul").slideToggle("slow" , function(){
-							 });
-							 });
-							 </script>
-							<!-- //script for menu -->
+
 					<div class="clearfix"></div>
 			 </div>
 		</div>
 	</div>
 
 <div id="content">
-<div class="accommodation-section" id="Accommodation">
-<div class="container">
-<div class="accommodation-header">
-<h3>Products</h3>
+<div class="accommodation-section container" id="Accommodation">
+      <div class="accommodation-header">
+      <h3>Products</h3>
+      </div>
+
+<div>
+  <ul class="nav nav-pills badge">
+  <li role="presentation"><a href="#" id="type1">ABSTRACT</a></li>
+  <li role="presentation"><a href="#" id="type2">INK PAINTING</a></li>
+  <li role="presentation"><a href="#" id="type3">LANDSCAPE</a></li>
+  <li role="presentation"><a href="#" id="type4">POP ART</a></li>
+  <li role="presentation"><a href="#" id="type5">PORTRAIT</a></li>
+</ul>
 </div>
+<!-- class="active" -->
 <div class="accommodation-grids">
 
-<div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
-<div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
+      <div class="col-md-4 accommodation-grid">
+      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <div class="accommodation-info">
+      <a><p>Name<br>Discription<br>Price</p>
+      </a>
+      </div>
+      </div>
+
+      <div class="col-md-4 accommodation-grid">
+      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <div class="accommodation-info">
+      <a><p>Name<br>Discription<br>Price</p>
+      </a>
+      </div>
+      </div>
+
+      <div class="col-md-4 accommodation-grid">
+      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <div class="accommodation-info">
+      <a><p>Name<br>Discription<br>Price</p>
+      </a>
+      </div>
+      </div>
+
+      <div class="col-md-4 accommodation-grid">
+      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <div class="accommodation-info">
+      <a><p>Name<br>Discription<br>Price</p>
+      </a>
+      </div>
+      </div>
+
+      <div class="col-md-4 accommodation-grid">
+      <img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
+      <div class="accommodation-info">
+      <a><p>Name<br>Discription<br>Price</p>
+      </a>
 </div>
 </div>
 
@@ -95,41 +145,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </div>
 
-<div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
-<div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
-</div>
-</div>
-
-<div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
-<div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
-</div>
-</div>
-
-<div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
-<div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
-</div>
-</div>
-
-<div class="col-md-4 accommodation-grid">
-<img src="images/abstract/1.jpg" class="img-responsive-p" alt="/">
-<div class="accommodation-info">
-<a><p>Name<br>Discription<br>Price</p>
-</a>
-</div>
-</div>
 
 
-
-</div>
 </div>
 </div>
 </div>
@@ -141,21 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="footer-bottom">
 						<p>Copyright &copy; 2017 NZ PAINTING CREATIONS STUDIO</p>
 									</div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear'
-					 		};
-							*/
 
-							$().UItoTop({ easingType: 'easeOutQuart' });
-
-						});
-					</script>
 				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 	</div>

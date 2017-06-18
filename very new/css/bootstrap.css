@@ -1589,19 +1589,19 @@ pre code {
 .container p{
 	text-align:center;
 }
-@media (min-width: 1168px) {
+@media (min-width: 768px) {
   .container {
-    width: 1150px;
+    width: 750px;
   }
 }
-@media (min-width: 1392px) {
+@media (min-width: 992px) {
   .container {
-    width: 1370px;
+    width: 970px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1570px;
+    width: 1170px;
   }
 }
 .container-fluid {
@@ -4824,11 +4824,11 @@ a.label:focus {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  color: #fff;
+  color: #FFFFFF;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #777;
+  background-color: #8fbc8f;
   border-radius: 10px;
 }
 .badge:empty {
@@ -4851,7 +4851,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #00008b;
   background-color: #fff;
 }
 .list-group-item > .badge {
