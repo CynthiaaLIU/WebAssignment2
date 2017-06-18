@@ -20,9 +20,9 @@ function typeFillter(a){
     // console.log("this is loop" + i);
 
 
-    qushuju(j,'name',"#name"+(i+1));
-    qushuju(j,'description',"#des"+ (i+1));
-    qushuju(j,'price',"#pri"+ (i+1));
+    qushuju(j+i,'name',"#name"+(i+1));
+    qushuju(j+i,'description',"#des"+ (i+1));
+    qushuju(j+i,'price',"#pri"+ (i+1));
     $('#productImg'+(i+1)).attr('src','images/art/'+(j+i+1)+'.jpg');
     $('.buyme'+(i+1)).attr('id', '#buyme'+(j+i+1));
 
@@ -42,7 +42,7 @@ $(document).ready(function() {
     qushuju(1,'name','#promo1');
     qushuju(6,'name','#promo2');
     qushuju(15,'name','#promo3');
-    qushuju(16,'name','#promo4');
+    qushuju(19,'name','#promo4');
     qushuju(29,'name','#promo5');
     qushuju(4,'name','#popul1');
     qushuju(4,'price','#pop1');
