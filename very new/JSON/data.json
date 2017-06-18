@@ -4,7 +4,7 @@
  "productid":1,
  "name":"The Sun",
  "category":"abstract",
- "description":"21"" x 24""  Acrylics on Canvas ",
+ "description":"21 x 24  Acrylics on Canvas ",
  "popularity":true,
  "onsale":false,
  "price":"$24.00"
@@ -13,7 +13,7 @@
    "productid":2,
    "name":"The seaside village",
    "category":"abstract",
-   "description":"11"" x 11"" Printed onto high quality, satin finish Fine Art paper.",
+   "description":"11 x 11 Printed onto high quality, satin finish Fine Art paper.",
    "popularity":true,
    "onsale":false,
    "price":"$24.00"
@@ -22,7 +22,7 @@
  "productid":3,
  "name":"Fire",
  "category":"abstract",
- "description":"21"" x 24"" Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
+ "description":"21 x 24 Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
  "popularity":true,
  "onsale":true,
  "price":"$15.00"
@@ -31,7 +31,7 @@
    "productid":4,
    "name":"Blood forest",
    "category":"abstract",
-   "description":"21"" x 24"" Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
+   "description":"21 x 24 Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
    "popularity":true,
    "onsale":false,
    "price":"$21.00"
@@ -40,7 +40,7 @@
  "productid":5,
  "name":"Deep ocean",
  "category":"abstract",
- "description":"21"" x 24"" print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1"" border for framing.",
+ "description":"21 x 24 print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1 border for framing.",
  "popularity":true,
  "onsale":true,
  "price":"$15.00"
@@ -49,7 +49,7 @@
    "productid":6,
    "name":"The cards",
    "category":"abstract",
-   "description":"15"" x 15""Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
+   "description":"15 x 15Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
    "popularity":true,
    "onsale":false,
    "price":"$30.00"
@@ -58,7 +58,7 @@
  "productid":7,
  "name":"Rhododendron simsii",
  "category":"InkPainting",
- "description":"27"" x 27""Ink drawing printed onto high quality 180gsm paper",
+ "description":"27 x 27Ink drawing printed onto high quality 180gsm paper",
  "popularity":true,
  "onsale":false,
  "price":"$38.00"
@@ -67,7 +67,7 @@
    "productid":8,
    "name":"Streams",
    "category":"InkPainting",
-   "description":"27"" x 54""Ink drawing printed onto high quality 180gsm paper",
+   "description":"27 x 54Ink drawing printed onto high quality 180gsm paper",
    "popularity":true,
    "onsale":false,
    "price":"$69.00"
@@ -76,7 +76,7 @@
  "productid":9,
  "name":"Magpie",
  "category":"InkPainting",
- "description":"21"" x 24"" Ink drawing printed onto high quality 180gsm paper",
+ "description":"21 x 24 Ink drawing printed onto high quality 180gsm paper",
  "popularity":true,
  "onsale":true,
  "price":"$17.00"
@@ -85,7 +85,7 @@
    "productid":10,
    "name":"Water town",
    "category":"InkPainting",
-   "description":"21"" x 38""Ink drawing printed onto high quality 180gsm paper",
+   "description":"21 x 38Ink drawing printed onto high quality 180gsm paper",
    "popularity":true,
    "onsale":false,
    "price":"$50.00"
@@ -94,7 +94,7 @@
  "productid":11,
  "name":"Panda",
  "category":"InkPainting",
- "description":"17"" x 13""Ink drawing printed onto high quality 180gsm paper",
+ "description":"17 x 13Ink drawing printed onto high quality 180gsm paper",
  "popularity":true,
  "onsale":true,
  "price":"$15.00"
@@ -103,7 +103,7 @@
    "productid":12,
    "name":"Early spring",
    "category":"InkPainting",
-   "description":"25"" x 52"" Ink drawing printed onto high quality 180gsm paper",
+   "description":"25 x 52 Ink drawing printed onto high quality 180gsm paper",
    "popularity":true,
    "onsale":false,
    "price":"$86.00"
@@ -112,7 +112,7 @@
  "productid":13,
  "name":"Low Tide, Kynance Cove ",
  "category":"Landscape",
- "description":"21"" x 15""Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
+ "description":"21 x 15Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
  "popularity":true,
  "onsale":false,
  "price":"$19.00"
@@ -121,7 +121,7 @@
    "productid":14,
    "name":"Venice",
    "category":"Landscape",
-   "description":"21"" x 24""  Acrylics on Canvas ",
+   "description":"21 x 24  Acrylics on Canvas ",
    "popularity":true,
    "onsale":false,
    "price":"$43.00"
@@ -130,7 +130,7 @@
  "productid":15,
  "name":"Night sky small stars",
  "category":"Landscape",
- "description":"21"" x 24"" Oil On Canvas",
+ "description":"21 x 24 Oil On Canvas",
  "popularity":true,
  "onsale":false,
  "price":"$25.00"
@@ -139,7 +139,7 @@
    "productid":16,
    "name":"Dufourspitze",
    "category":"Landscape",
-   "description":"21"" x 24"" Printed onto high quality, satin finish Fine Art paper.",
+   "description":"21 x 24 Printed onto high quality, satin finish Fine Art paper.",
    "popularity":true,
    "onsale":false,
    "price":"$50.00"
@@ -148,7 +148,7 @@
  "productid":17,
  "name":"Hulun Buir Grassland",
  "category":"Landscape",
- "description":"23"" x 24""print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1"" border for framing.",
+ "description":"23 x 24print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1 border for framing.",
  "popularity":true,
  "onsale":true,
  "price":"$17.00"
@@ -157,7 +157,7 @@
    "productid":18,
    "name":"Saguaro National Park",
    "category":"Landscape",
-   "description":"30"" x 30""Oil On Canvas",
+   "description":"30 x 30Oil On Canvas",
    "popularity":true,
    "onsale":false,
    "price":"$28.00"
@@ -166,7 +166,7 @@
  "productid":19,
  "name":"Poison You with Love",
  "category":"PopArt",
- "description":"7"" x 13""Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
+ "description":"7 x 13Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
  "popularity":true,
  "onsale":true,
  "price":"$15.00"
@@ -175,7 +175,7 @@
    "productid":20,
    "name":"Read all about you",
    "category":"PopArt",
-   "description":"21"" x 24""Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
+   "description":"21 x 24Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
    "popularity":true,
    "onsale":false,
    "price":"$20.00"
@@ -184,7 +184,7 @@
  "productid":21,
  "name":"Knights of Thought",
  "category":"PopArt",
- "description":"11"" x 14""Printed onto high quality, satin finish Fine Art paper.",
+ "description":"11 x 14Printed onto high quality, satin finish Fine Art paper.",
  "popularity":true,
  "onsale":true,
  "price":"$15.00"
@@ -193,7 +193,7 @@
    "productid":22,
    "name":"Claude LeviStrauss",
    "category":"PopArt",
-   "description":"21"" x 21""  Acrylics on Canvas ",
+   "description":"21 x 21  Acrylics on Canvas ",
    "popularity":true,
    "onsale":false,
    "price":"$25.00"
@@ -202,7 +202,7 @@
  "productid":23,
  "name":"Baby",
  "category":"PopArt",
- "description":"4"" x 5""print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1"" border for framing.",
+ "description":"4 x 5print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1 border for framing.",
  "popularity":true,
  "onsale":false,
  "price":"$15.00"
@@ -211,7 +211,7 @@
    "productid":24,
    "name":"A Canine Ishmael",
    "category":"PopArt",
-   "description":"6"" x 6""Oil On Canvas",
+   "description":"60 x 6O On Canvas",
    "popularity":true,
    "onsale":false,
    "price":"$20.00"
@@ -220,7 +220,7 @@
  "productid":25,
  "name":"Little Pink Girl",
  "category":"Portrait",
- "description":"14"" x 24""Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
+ "description":"14 x 24Printed on quality 190gsm satin finish paper and shipped in a protective tube.",
  "popularity":true,
  "onsale":false,
  "price":"$27.00"
@@ -229,7 +229,7 @@
    "productid":26,
    "name":"John Watson",
    "category":"Portrait",
-   "description":"14"" x 24"" Oil On Canvas",
+   "description":"14 x 24 Oil On Canvas",
    "popularity":true,
    "onsale":false,
    "price":"$25.00"
@@ -238,7 +238,7 @@
  "productid":27,
  "name":"Princess Louise",
  "category":"Portrait",
- "description":"21"" x 16"" Oil On Canvas",
+ "description":"21 x 16 Oil On Canvas",
  "popularity":true,
  "onsale":true,
  "price":"$14.00"
@@ -247,7 +247,7 @@
    "productid":28,
    "name":"Mr. Parsottambhai Rupala",
    "category":"Portrait",
-   "description":"21"" x 16"" Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
+   "description":"21 x 16 Our prints are produced on acidfree papers using archival inks to guarantee that they last a lifetime without fading or loss of color.",
    "popularity":true,
    "onsale":false,
    "price":"$27.00"
@@ -256,7 +256,7 @@
  "productid":29,
  "name":"Wende Caporale",
  "category":"Portrait",
- "description":"12"" x 12""print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1"" border for framing.",
+ "description":"12 x 12print on natural white, matte, ultra smooth, 100% cotton rag, acid and lignin free archival paper using Epson K3 archival inks. Custom trimmed with 1 border for framing.",
  "popularity":true,
  "onsale":false,
  "price":"$19.00"
@@ -265,7 +265,7 @@
    "productid":30,
    "name":"Dragon Girl",
    "category":"Portrait",
-   "description":"7"" x 7""Printed onto high quality, satin finish Fine Art paper.",
+   "description":"7 x 7Printed onto high quality, satin finish Fine Art paper.",
    "popularity":true,
    "onsale":false,
    "price":"$20.00"

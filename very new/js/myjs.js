@@ -15,8 +15,11 @@ function qushuju(num,a,b){
 
 
 $(document).ready(function() {
+//index page
+
 
   console.log("document loaded")
+  qushuju(2,'productid','#promo1');
 
   $('#btn1').click(function() {
     console.log("AA")
